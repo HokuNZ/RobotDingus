@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5824601E17056FD200D80A25 /* Exhaust.png in Resources */ = {isa = PBXBuildFile; fileRef = 5824601717056FD200D80A25 /* Exhaust.png */; };
+		5824602017056FD200D80A25 /* Ultra.png in Resources */ = {isa = PBXBuildFile; fileRef = 5824601917056FD200D80A25 /* Ultra.png */; };
+		5824602117056FD200D80A25 /* Top.png in Resources */ = {isa = PBXBuildFile; fileRef = 5824601A17056FD200D80A25 /* Top.png */; };
+		5824602217056FD200D80A25 /* Pedals.png in Resources */ = {isa = PBXBuildFile; fileRef = 5824601B17056FD200D80A25 /* Pedals.png */; };
+		5824602317056FD200D80A25 /* Flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 5824601C17056FD200D80A25 /* Flag.png */; };
+		582460271705718600D80A25 /* Pump.png in Resources */ = {isa = PBXBuildFile; fileRef = 582460251705718600D80A25 /* Pump.png */; };
+		582460281705718600D80A25 /* Turbo5000.png in Resources */ = {isa = PBXBuildFile; fileRef = 582460261705718600D80A25 /* Turbo5000.png */; };
+		58471B48169400BE00A53032 /* BodyClear.png in Resources */ = {isa = PBXBuildFile; fileRef = 58471B46169400BE00A53032 /* BodyClear.png */; };
+		58471B49169400BE00A53032 /* Light & Radar.png in Resources */ = {isa = PBXBuildFile; fileRef = 58471B47169400BE00A53032 /* Light & Radar.png */; };
+		58471B4D1694013200A53032 /* BuildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58471B4C1694013200A53032 /* BuildViewController.m */; };
+		5847263E169295E9001B0EBF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5847263D169295E9001B0EBF /* UIKit.framework */; };
+		58472640169295E9001B0EBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5847263F169295E9001B0EBF /* Foundation.framework */; };
+		58472642169295E9001B0EBF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58472641169295E9001B0EBF /* CoreGraphics.framework */; };
+		58472648169295E9001B0EBF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58472646169295E9001B0EBF /* InfoPlist.strings */; };
+		5847264A169295E9001B0EBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58472649169295E9001B0EBF /* main.m */; };
+		5847264E169295E9001B0EBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5847264D169295E9001B0EBF /* AppDelegate.m */; };
+		58472650169295E9001B0EBF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5847264F169295E9001B0EBF /* Default.png */; };
+		58472652169295E9001B0EBF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58472651169295E9001B0EBF /* Default@2x.png */; };
+		58472654169295E9001B0EBF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58472653169295E9001B0EBF /* Default-568h@2x.png */; };
+		58472657169295E9001B0EBF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58472655169295E9001B0EBF /* MainStoryboard.storyboard */; };
+		5847265A169295E9001B0EBF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58472659169295E9001B0EBF /* ViewController.m */; };
+		58E634A616929FC000456DCA /* Tank Tracks.png in Resources */ = {isa = PBXBuildFile; fileRef = 58E6349C16929FC000456DCA /* Tank Tracks.png */; };
+		58E634A716929FC000456DCA /* Mechanical Legs.png in Resources */ = {isa = PBXBuildFile; fileRef = 58E6349D16929FC000456DCA /* Mechanical Legs.png */; };
+		58E634A816929FC000456DCA /* Wheels.png in Resources */ = {isa = PBXBuildFile; fileRef = 58E6349E16929FC000456DCA /* Wheels.png */; };
+		58E634A916929FC000456DCA /* Bulldozer.png in Resources */ = {isa = PBXBuildFile; fileRef = 58E6349F16929FC000456DCA /* Bulldozer.png */; };
+		58E634AA16929FC000456DCA /* Springs.png in Resources */ = {isa = PBXBuildFile; fileRef = 58E634A016929FC000456DCA /* Springs.png */; };
+		58E634AB16929FC000456DCA /* Propeller.png in Resources */ = {isa = PBXBuildFile; fileRef = 58E634A116929FC000456DCA /* Propeller.png */; };
+		58E634AC16929FC000456DCA /* Drill.png in Resources */ = {isa = PBXBuildFile; fileRef = 58E634A216929FC000456DCA /* Drill.png */; };
+		58E634AD16929FC000456DCA /* Fan.png in Resources */ = {isa = PBXBuildFile; fileRef = 58E634A316929FC000456DCA /* Fan.png */; };
+		58E634AE16929FC000456DCA /* Body.png in Resources */ = {isa = PBXBuildFile; fileRef = 58E634A416929FC000456DCA /* Body.png */; };
+		58E634AF16929FC000456DCA /* Jet.png in Resources */ = {isa = PBXBuildFile; fileRef = 58E634A516929FC000456DCA /* Jet.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5824601717056FD200D80A25 /* Exhaust.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Exhaust.png; sourceTree = "<group>"; };
+		5824601917056FD200D80A25 /* Ultra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ultra.png; sourceTree = "<group>"; };
+		5824601A17056FD200D80A25 /* Top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Top.png; sourceTree = "<group>"; };
+		5824601B17056FD200D80A25 /* Pedals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pedals.png; sourceTree = "<group>"; };
+		5824601C17056FD200D80A25 /* Flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flag.png; sourceTree = "<group>"; };
+		582460251705718600D80A25 /* Pump.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pump.png; sourceTree = "<group>"; };
+		582460261705718600D80A25 /* Turbo5000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Turbo5000.png; sourceTree = "<group>"; };
+		58471B46169400BE00A53032 /* BodyClear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BodyClear.png; sourceTree = "<group>"; };
+		58471B47169400BE00A53032 /* Light & Radar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Light & Radar.png"; sourceTree = "<group>"; };
+		58471B4B1694013200A53032 /* BuildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildViewController.h; sourceTree = "<group>"; };
+		58471B4C1694013200A53032 /* BuildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildViewController.m; sourceTree = "<group>"; };
+		58472639169295E9001B0EBF /* RobotDingus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RobotDingus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5847263D169295E9001B0EBF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5847263F169295E9001B0EBF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		58472641169295E9001B0EBF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		58472645169295E9001B0EBF /* RobotDingus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RobotDingus-Info.plist"; sourceTree = "<group>"; };
+		58472647169295E9001B0EBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		58472649169295E9001B0EBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5847264B169295E9001B0EBF /* RobotDingus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RobotDingus-Prefix.pch"; sourceTree = "<group>"; };
+		5847264C169295E9001B0EBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5847264D169295E9001B0EBF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5847264F169295E9001B0EBF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		58472651169295E9001B0EBF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		58472653169295E9001B0EBF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		58472656169295E9001B0EBF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		58472658169295E9001B0EBF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		58472659169295E9001B0EBF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		58E6349C16929FC000456DCA /* Tank Tracks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tank Tracks.png"; sourceTree = "<group>"; };
+		58E6349D16929FC000456DCA /* Mechanical Legs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mechanical Legs.png"; sourceTree = "<group>"; };
+		58E6349E16929FC000456DCA /* Wheels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wheels.png; sourceTree = "<group>"; };
+		58E6349F16929FC000456DCA /* Bulldozer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bulldozer.png; sourceTree = "<group>"; };
+		58E634A016929FC000456DCA /* Springs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Springs.png; sourceTree = "<group>"; };
+		58E634A116929FC000456DCA /* Propeller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Propeller.png; sourceTree = "<group>"; };
+		58E634A216929FC000456DCA /* Drill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Drill.png; sourceTree = "<group>"; };
+		58E634A316929FC000456DCA /* Fan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fan.png; sourceTree = "<group>"; };
+		58E634A416929FC000456DCA /* Body.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Body.png; sourceTree = "<group>"; };
+		58E634A516929FC000456DCA /* Jet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jet.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58472636169295E9001B0EBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5847263E169295E9001B0EBF /* UIKit.framework in Frameworks */,
+				58472640169295E9001B0EBF /* Foundation.framework in Frameworks */,
+				58472642169295E9001B0EBF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5847262E169295E9001B0EBF = {
+			isa = PBXGroup;
+			children = (
+				58472643169295E9001B0EBF /* RobotDingus */,
+				5847263C169295E9001B0EBF /* Frameworks */,
+				5847263A169295E9001B0EBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5847263A169295E9001B0EBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58472639169295E9001B0EBF /* RobotDingus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5847263C169295E9001B0EBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5847263D169295E9001B0EBF /* UIKit.framework */,
+				5847263F169295E9001B0EBF /* Foundation.framework */,
+				58472641169295E9001B0EBF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58472643169295E9001B0EBF /* RobotDingus */ = {
+			isa = PBXGroup;
+			children = (
+				58472660169296BF001B0EBF /* Images */,
+				5847264C169295E9001B0EBF /* AppDelegate.h */,
+				5847264D169295E9001B0EBF /* AppDelegate.m */,
+				58472655169295E9001B0EBF /* MainStoryboard.storyboard */,
+				58472658169295E9001B0EBF /* ViewController.h */,
+				58472659169295E9001B0EBF /* ViewController.m */,
+				58471B4B1694013200A53032 /* BuildViewController.h */,
+				58471B4C1694013200A53032 /* BuildViewController.m */,
+				58472644169295E9001B0EBF /* Supporting Files */,
+			);
+			path = RobotDingus;
+			sourceTree = "<group>";
+		};
+		58472644169295E9001B0EBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58472645169295E9001B0EBF /* RobotDingus-Info.plist */,
+				58472646169295E9001B0EBF /* InfoPlist.strings */,
+				58472649169295E9001B0EBF /* main.m */,
+				5847264B169295E9001B0EBF /* RobotDingus-Prefix.pch */,
+				5847264F169295E9001B0EBF /* Default.png */,
+				58472651169295E9001B0EBF /* Default@2x.png */,
+				58472653169295E9001B0EBF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58472660169296BF001B0EBF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				582460251705718600D80A25 /* Pump.png */,
+				582460261705718600D80A25 /* Turbo5000.png */,
+				5824601717056FD200D80A25 /* Exhaust.png */,
+				5824601917056FD200D80A25 /* Ultra.png */,
+				5824601A17056FD200D80A25 /* Top.png */,
+				5824601B17056FD200D80A25 /* Pedals.png */,
+				5824601C17056FD200D80A25 /* Flag.png */,
+				58471B46169400BE00A53032 /* BodyClear.png */,
+				58471B47169400BE00A53032 /* Light & Radar.png */,
+				58E6349C16929FC000456DCA /* Tank Tracks.png */,
+				58E6349D16929FC000456DCA /* Mechanical Legs.png */,
+				58E6349E16929FC000456DCA /* Wheels.png */,
+				58E6349F16929FC000456DCA /* Bulldozer.png */,
+				58E634A016929FC000456DCA /* Springs.png */,
+				58E634A116929FC000456DCA /* Propeller.png */,
+				58E634A216929FC000456DCA /* Drill.png */,
+				58E634A316929FC000456DCA /* Fan.png */,
+				58E634A416929FC000456DCA /* Body.png */,
+				58E634A516929FC000456DCA /* Jet.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58472638169295E9001B0EBF /* RobotDingus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5847265D169295E9001B0EBF /* Build configuration list for PBXNativeTarget "RobotDingus" */;
+			buildPhases = (
+				58472635169295E9001B0EBF /* Sources */,
+				58472636169295E9001B0EBF /* Frameworks */,
+				58472637169295E9001B0EBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RobotDingus;
+			productName = RobotDingus;
+			productReference = 58472639169295E9001B0EBF /* RobotDingus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58472630169295E9001B0EBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Hoddywood Studios";
+			};
+			buildConfigurationList = 58472633169295E9001B0EBF /* Build configuration list for PBXProject "RobotDingus" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5847262E169295E9001B0EBF;
+			productRefGroup = 5847263A169295E9001B0EBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58472638169295E9001B0EBF /* RobotDingus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58472637169295E9001B0EBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58472648169295E9001B0EBF /* InfoPlist.strings in Resources */,
+				58472650169295E9001B0EBF /* Default.png in Resources */,
+				58472652169295E9001B0EBF /* Default@2x.png in Resources */,
+				58472654169295E9001B0EBF /* Default-568h@2x.png in Resources */,
+				58472657169295E9001B0EBF /* MainStoryboard.storyboard in Resources */,
+				58E634A616929FC000456DCA /* Tank Tracks.png in Resources */,
+				58E634A716929FC000456DCA /* Mechanical Legs.png in Resources */,
+				58E634A816929FC000456DCA /* Wheels.png in Resources */,
+				58E634A916929FC000456DCA /* Bulldozer.png in Resources */,
+				58E634AA16929FC000456DCA /* Springs.png in Resources */,
+				58E634AB16929FC000456DCA /* Propeller.png in Resources */,
+				58E634AC16929FC000456DCA /* Drill.png in Resources */,
+				58E634AD16929FC000456DCA /* Fan.png in Resources */,
+				58E634AE16929FC000456DCA /* Body.png in Resources */,
+				58E634AF16929FC000456DCA /* Jet.png in Resources */,
+				58471B48169400BE00A53032 /* BodyClear.png in Resources */,
+				58471B49169400BE00A53032 /* Light & Radar.png in Resources */,
+				5824601E17056FD200D80A25 /* Exhaust.png in Resources */,
+				5824602017056FD200D80A25 /* Ultra.png in Resources */,
+				5824602117056FD200D80A25 /* Top.png in Resources */,
+				5824602217056FD200D80A25 /* Pedals.png in Resources */,
+				5824602317056FD200D80A25 /* Flag.png in Resources */,
+				582460271705718600D80A25 /* Pump.png in Resources */,
+				582460281705718600D80A25 /* Turbo5000.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58472635169295E9001B0EBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5847264A169295E9001B0EBF /* main.m in Sources */,
+				5847264E169295E9001B0EBF /* AppDelegate.m in Sources */,
+				5847265A169295E9001B0EBF /* ViewController.m in Sources */,
+				58471B4D1694013200A53032 /* BuildViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		58472646169295E9001B0EBF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58472647169295E9001B0EBF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		58472655169295E9001B0EBF /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58472656169295E9001B0EBF /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5847265B169295E9001B0EBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				ONLY_ACTIVE_ARCH = YES;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5847265C169295E9001B0EBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Developer ID Application: Southgate Labs Limited (D2Y43P24Z5)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5847265E169295E9001B0EBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Rowan Simpson (6QT9MTGZ3K)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RobotDingus/RobotDingus-Prefix.pch";
+				INFOPLIST_FILE = "RobotDingus/RobotDingus-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hoddywood.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "99D101CC-7B1B-40A3-93AD-8F5692192B1F";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5847265F169295E9001B0EBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Rowan Simpson (6QT9MTGZ3K)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RobotDingus/RobotDingus-Prefix.pch";
+				INFOPLIST_FILE = "RobotDingus/RobotDingus-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hoddywood.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "99D101CC-7B1B-40A3-93AD-8F5692192B1F";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58472633169295E9001B0EBF /* Build configuration list for PBXProject "RobotDingus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5847265B169295E9001B0EBF /* Debug */,
+				5847265C169295E9001B0EBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5847265D169295E9001B0EBF /* Build configuration list for PBXNativeTarget "RobotDingus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5847265E169295E9001B0EBF /* Debug */,
+				5847265F169295E9001B0EBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58472630169295E9001B0EBF /* Project object */;
+}
